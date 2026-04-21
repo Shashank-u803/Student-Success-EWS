@@ -10,19 +10,15 @@ __pycache__/
 dist/
 build/
 
-# Data files (large / generated)
-data/student_attrition_raw.csv
-data/X_train.csv
-data/X_test.csv
-data/X_test_unscaled.csv
-data/y_train.csv
-data/y_test.csv
-data/xgb_model.pkl
-data/scaler.pkl
-data/fairness_audit.csv
-
-# Generated plots (reproducible via scripts)
-data/eda_plots/
+# Data files
+# (Including models and processed data for cloud deployment)
+!data/student_attrition_raw.csv
+!data/X_test_unscaled.csv
+!data/y_test.csv
+!data/xgb_model.pkl
+!data/scaler.pkl
+!data/fairness_audit.csv
+!data/eda_plots/
 
 # Internal / personal docs
 aat-doc.md
