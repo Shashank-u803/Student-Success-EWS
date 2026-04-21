@@ -14,7 +14,7 @@ A machine learning system that predicts student dropout risk using the real UCI 
 
 | Model | Dropout Recall | Precision | F1 | ROC-AUC |
 |---|---|---|---|---|
-| Logistic Regression | 0.94 | 0.88 | 0.91 | -- |
+| Logistic Regression | 0.94 | 0.88 | 0.91 | 0.974 |
 | **XGBoost (deployed)** | **0.93** | **0.89** | **0.91** | **0.975** |
 
 93% of at-risk students are correctly flagged before dropout occurs.
